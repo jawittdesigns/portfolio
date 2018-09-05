@@ -2,7 +2,6 @@
   <form 
     class="contact-form"
     name="contact"
-    action="/contact/submition"
     method="POST"
     netlify-honeypot="bot-field"
     netlify>
