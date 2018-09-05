@@ -2,9 +2,11 @@
   <form 
     class="contact-form"
     name="contact"
-    method="POST"
+    method="post"
+    action="/contact/submition"
     netlify-honeypot="bot-field"
-    netlify>
+    data-netlify="true">
+    <input type="hidden" name="contact" value="contact" />  
 
     <div class="hidden">
       <label for="name">Don’t fill this out if you're human</label>
