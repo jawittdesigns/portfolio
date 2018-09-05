@@ -25,7 +25,7 @@ export default [
         path: 'submition',
         name: 'submition',
         title: 'Submition',
-        component: () => import(/* webpackChunkName: "contact" */ './../views/Submition.vue'),
+        component: () => import(/* webpackChunkName: "submition" */ './../views/Submition.vue'),
       },
     ],
   },
