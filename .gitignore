@@ -1,6 +1,5 @@
 # Directories
 /node_modules
-/dist
 /dev
 /tests/e2e/videos/
 /tests/e2e/screenshots/
