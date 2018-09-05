@@ -20,13 +20,11 @@ export default [
     name: 'contact',
     title: 'Contact',
     component: () => import(/* webpackChunkName: "contact" */ './../views/Contact.vue'),
-    children: [
-      {
-        path: 'submition',
-        name: 'submition',
-        title: 'Submition',
-        component: () => import(/* webpackChunkName: "submition" */ './../views/Submition.vue'),
-      },
-    ],
+  },
+  {
+    path: '/contact/submition',
+    name: 'submition',
+    title: 'Submition',
+    component: () => import(/* webpackChunkName: "submition" */ './../views/Submition.vue'),
   },
 ]

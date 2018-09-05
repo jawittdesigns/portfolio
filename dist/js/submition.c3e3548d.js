@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["submition"],{eeb6:function(t,n,i){"use strict";i.r(n);var e=function(){var t=this,n=t.$createElement,i=t._self._c||n;return i("div",{staticClass:"thanks page",attrs:{id:"thanks"}},[i("h1",[t._v("Thank you for your sumbition!")]),i("ContactForm")],1)},o=[],s={name:"submition"},a=s,u=i("2877"),r=Object(u["a"])(a,e,o,!1,null,null,null);r.options.__file="Submition.vue";n["default"]=r.exports}}]);
+//# sourceMappingURL=submition.c3e3548d.js.map
